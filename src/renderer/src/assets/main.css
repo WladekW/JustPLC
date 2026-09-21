@@ -1,0 +1,127 @@
+@import './base.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+button,
+p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+button,
+input,
+textarea {
+  transition: 0.1s;
+}
+
+button {
+  display: flex;
+  height: min-content;
+  padding: var(--space-little);
+  border: none;
+  border-radius: var(--radius-base);
+  background: none;
+  color: var(--text-color-light);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bacground-hover);
+  border: none;
+}
+
+.sharp_button {
+  height: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.red_hovered:hover {
+  background-color: var(--red-color-base);
+}
+
+input {
+  /*height: min-content;*/
+  border: none;
+  border-bottom: var(--border-base);
+  padding: var(--space-little);
+  /*border-radius: var(--radius-little);*/
+  background: none;
+  color: var(--text-color-light);
+  cursor: text;
+}
+
+input:hover {
+  background-color: var(--bacground-hover);
+  border-bottom: 1px solid var(--text-color-base);
+}
+
+input:active {
+  background-color: var(--bacground-hover);
+}
+
+.separator {
+  border: var(--border-base);
+  /*border-radius: var(--radius-base);*/
+  width: var(--space-little);
+  margin: var(--space-little) 0;
+}
+
+.main_section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 36px auto 36px;
+}
+
+.central_panel {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.left_panel {
+  height: 100%;
+  width: 100%;
+  padding: var(--space-base);
+}
+
+.right_panel {
+  height: 100%;
+  width: 100%;
+  padding: var(--space-base);
+}
+
+.bottom_bar {
+  display: flex;
+  gap: var(--space-base);
+  padding: var(--space-base);
+  border-top: var(--border-base);
+}
+
+/*nodes*/
+
+.test-node {
+  border-radius: var(--radius-base);
+  background-color: var(--bacground-light);
+  padding: var(--space-big);
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color-light);
+}
+
+.test-node:active {
+  border-radius: var(--radius-base);
+}

@@ -1,0 +1,73 @@
+:root {
+  --bacground-deep: #010a0f;
+  --bacground-base: #121b1f;
+  --bacground-light: #122d2f;
+  --bacground-hover: #ffffff22;
+  --text-color-base: #c4bca8;
+  --text-color-light: #f0ebd8;
+
+  --red-color-base: #cf0f0f;
+
+  --space-little: 4px;
+  --space-base: 8px;
+  --space-big: 16px;
+
+  --radius-little: 2px;
+  --radius-base: 4px;
+  --border-base: 1px var(--bacground-light) solid;
+  --border-focus: 1px var(--text-color-light) solid;
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('./font/Roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('./font/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MonsterratRegular';
+  src: url('./font/Monsterrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MonsterratItalic';
+  src: url('./font/Monsterrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'RobotoRegular';
+  font-weight: 100;
+  /*overflow: hidden;*/
+  background-color: var(--bacground-deep);
+  color: var(--text-color-light);
+  background-size: cover;
+  user-select: none;
+  background-image: url(diagonal-lines.svg);
+  background-repeat: repeat;
+  background-size: 10px;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}

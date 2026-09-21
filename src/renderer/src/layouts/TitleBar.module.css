@@ -1,0 +1,28 @@
+@import '../assets/base.css';
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+.title_bar {
+  display: flex;
+  gap: var(--space-little);
+  border-bottom: var(--border-base);
+  -webkit-app-region: drag;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_bar__menu {
+  height: 100%;
+  padding: 0 var(--space-base);
+  display: flex;
+  gap: var(--space-little);
+  align-items: center;
+}
+
+.window_controls {
+  height: 100%;
+  display: flex;
+  color: #fff;
+}
