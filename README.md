@@ -10,7 +10,7 @@ JustPLC is a cross-platform desktop app for designing PLC control logic as a nod
 
 ```
 ┌──────────────────────────────────────────────┐
-│ TitleBar  File Edit Selection Go      _ □ X │
+│ TitleBar                               _ □ X │
 ├──────────┬───────────────────┬───────────────┤
 │          │                   │               │
 │  Nodes   │    Graph Editor   │   PLC State   │
